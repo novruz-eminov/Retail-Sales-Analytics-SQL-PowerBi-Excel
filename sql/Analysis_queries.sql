@@ -1,4 +1,4 @@
--- Monthly Revenue Trend
+e-- Monthly Revenue Trend
 SELECT YEAR(order_date) AS year,
        MONTH(order_date) AS month,
        SUM(total_price) AS revenue
@@ -55,7 +55,7 @@ WITH daily_sales AS (
          GROUP BY YEAR(order_date),
                 MONTH(order_date)
  )
-SELECT year,month,
+SELECT year,month,revenue,
        LAG(revenue) OVER(ORDER BY year,month) AS previous_month,
        (revenue -  LAG(revenue) OVER(ORDER BY year,month))*100/ LAG(revenue) OVER(ORDER BY year,month) AS growth_pcn
 FROM monthly_sales
