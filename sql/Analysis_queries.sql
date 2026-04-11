@@ -46,7 +46,7 @@ WITH daily_sales AS (
         SUM(daily_revenue) OVER(ORDER BY sales_dates) AS running_total
  FROM daily_sales
 
- -- Monthy Grows %
+ -- Monthly Grows %
  WITH monthly_sales AS(
          SELECT YEAR(order_date) AS year,
                 MONTH(order_date) AS month,
