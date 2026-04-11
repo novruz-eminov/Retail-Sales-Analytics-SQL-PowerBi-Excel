@@ -161,7 +161,7 @@ The dashboard consists of four pages:
 
 Detailed analysis can be found here:
 
-[View Business Insights](insights.md)
+[View Insights](insights/Insights.md)
 
 ## Project Structure
 ```text
