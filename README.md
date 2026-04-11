@@ -59,7 +59,7 @@ A **Star Schema** was implemented to support analytical queries.
 
 ### Schema Diagram
 
-![Star Schema](images/Star Schema Diagram.png)
+![Star Schema](images/Star_Schema_Diagram.png)
 
 ---
 
@@ -135,16 +135,17 @@ The dashboard consists of four pages:
 ## Dashboard Preview
 
 ### Executive Overview
-![Executive Overview](images/pb_page 1.png)
+![Executive Overview](images/pb_page_1.png)
 
 ### Product Performance
-![Product Performance](images/pb_page 2.png)
+![Product Performance](images/pb_page_2.png)
 
 ### Customer Analysis
-![Customer Analysis](images/pb_page 3.png)
+![Customer Analysis](images/pb_page_3.png)
 
 ### Time Analysis
-![Time Analysis](images/pb_page 4.png)
+![Time Analysis](images/pb_page_4.png)
+
 ---
 
 ## Tools Used
